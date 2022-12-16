@@ -1,5 +1,5 @@
 {
-  "homepage": "https://https://bvwamel.github.io/youtube_clone",
+  "homepage": "https://bvwamel.github.io",
   "name": "youtube_clone",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
